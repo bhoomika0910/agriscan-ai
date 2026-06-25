@@ -219,23 +219,40 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-#### Step 4️⃣ — Download Model Weights
+#### Step 4️⃣ — Configure Environment Variables
+
+```bash
+# Windows
+copy .env.example .env
+
+# macOS/Linux
+cp .env.example .env
+```
+
+Update `.env` as needed for:
+
+- API host and port
+- backend model and knowledge base paths
+- frontend API URL
+- allowed CORS origins
+
+#### Step 5️⃣ — Download Model Weights
 
 Download the trained `best.pt` file and place it in `app/models/`:
 
 - **Option A:** Download from [GitHub Releases](https://github.com/bhoomika0910/agriscan-ai/releases)
 - **Option B:** Train your own using `training/train.ipynb`
 
-#### Step 5️⃣ — Run FastAPI Backend
+#### Step 6️⃣ — Run FastAPI Backend
 
 ```bash
-uvicorn app.main:app --reload
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 ✅ API will be available at `http://localhost:8000`  
 📚 API docs: `http://localhost:8000/docs`
 
-#### Step 6️⃣ — Run Streamlit Frontend
+#### Step 7️⃣ — Run Streamlit Frontend
 
 Open a new terminal and run:
 
