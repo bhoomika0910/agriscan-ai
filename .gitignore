@@ -1,0 +1,36 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Tooling cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Model weights and generated artifacts
+app/models/*.pt
+app/models/*.onnx
+logs/
