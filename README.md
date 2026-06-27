@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-#agriscan-ai
-=======
 # 🌿 AgriScan AI — Crop Disease & Pest Detector
 
 <div align="center">
@@ -514,4 +511,3 @@ Please ensure your code follows our style guidelines and includes appropriate te
 [⬆ back to top](#-agriscan-ai--crop-disease--pest-detector)
 
 </div>
->>>>>>> 1c32127 (Initial commit: project structure and README)

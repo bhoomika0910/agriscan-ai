@@ -117,7 +117,15 @@ def main() -> None:
                 )
                 return
             except RuntimeError as exc:
-                st.error(f"Prediction failed: {exc}")
+                error_msg = str(exc)
+                st.error(f"❌ {error_msg}")
+                st.info(
+                    "💡 **Tips for best results:**\n"
+                    "- Upload a **clear, close-up photo** of an affected crop leaf\n"
+                    "- Ensure the leaf is **well-lit** and **in focus**\n"
+                    "- Avoid shadows or blurred images\n"
+                    "- Make sure you're uploading a **leaf, not a person** or object"
+                )
                 return
 
         _render_results(result=result, image_bytes=image_bytes)

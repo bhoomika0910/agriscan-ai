@@ -31,6 +31,6 @@ dist/
 Thumbs.db
 
 # Model weights and generated artifacts
-app/models/*.pt
-app/models/*.onnx
+*.pt
+*.onnx
 logs/

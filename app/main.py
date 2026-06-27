@@ -86,6 +86,24 @@ async def predict(file: UploadFile = File(...)) -> PredictionResponse:
     except TreatmentLookupError as exc:
         raise HTTPException(status_code=500, detail=f"Treatment lookup error: {exc}") from exc
 
+    # Validate confidence threshold
+    if prediction.confidence < 0.5:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Low confidence prediction ({prediction.confidence:.1%}). "
+            "Please upload a clearer image of the affected leaf.",
+        )
+
+    # Check if disease is in knowledge base (not a fallback generic class)
+    from app.treatment import _load_knowledge_base
+    kb = _load_knowledge_base()
+    if prediction.disease not in kb:
+        raise HTTPException(
+            status_code=400,
+            detail=f"'{prediction.disease}' is not a recognized crop disease. "
+            "Ensure you're uploading a crop leaf image.",
+        )
+
     return PredictionResponse(
         disease=prediction.disease,
         confidence=prediction.confidence,
