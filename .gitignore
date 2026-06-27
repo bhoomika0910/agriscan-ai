@@ -34,3 +34,7 @@ Thumbs.db
 *.pt
 *.onnx
 logs/
+
+# Debug logs
+app_debug.log
+*.log

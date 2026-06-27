@@ -1,92 +1,57 @@
 {
-  "Tomato___Late_blight": {
-    "remedy": "Apply a protectant fungicide containing chlorothalonil or mancozeb and remove heavily infected leaves.",
-    "dosage": "Chlorothalonil 2 g per liter water or mancozeb 2.5 g per liter, spray every 7 to 10 days.",
-    "prevention": "Avoid overhead irrigation, improve airflow by pruning, and rotate away from solanaceous crops for 2 seasons."
-  },
-  "Tomato___Early_blight": {
-    "remedy": "Use azoxystrobin or copper-based fungicide and remove lower infected foliage.",
-    "dosage": "Azoxystrobin 1 ml per liter or copper oxychloride 2.5 g per liter, repeat at 10 day interval.",
-    "prevention": "Use mulching to reduce soil splash, maintain balanced potassium, and practice crop rotation."
-  },
-  "Tomato___Leaf_Mold": {
-    "remedy": "Spray copper hydroxide or chlorothalonil and reduce greenhouse humidity.",
-    "dosage": "Copper hydroxide 2 g per liter, apply at first symptoms and repeat after 7 days.",
-    "prevention": "Ensure spacing and ventilation, irrigate at root zone only, and sanitize crop residues."
-  },
-  "Tomato___Septoria_leaf_spot": {
-    "remedy": "Apply mancozeb or chlorothalonil and remove severely affected leaves.",
-    "dosage": "Mancozeb 2.5 g per liter, 2 to 3 sprays at 7 day interval depending on disease pressure.",
-    "prevention": "Stake plants, avoid wet foliage, and remove volunteer tomato plants after harvest."
-  },
-  "Tomato___Spider_mites Two-spotted_spider_mite": {
-    "remedy": "Spray neem oil or abamectin and target leaf undersides thoroughly.",
-    "dosage": "Neem oil 3 ml per liter or abamectin 0.5 ml per liter, repeat after 5 to 7 days.",
-    "prevention": "Reduce dust, conserve natural predators, and avoid repeated broad-spectrum insecticides."
-  },
-  "Tomato___Target_Spot": {
-    "remedy": "Use fungicides containing difenoconazole or mancozeb with sanitation pruning.",
-    "dosage": "Difenoconazole 0.5 ml per liter or mancozeb 2.5 g per liter, spray every 10 days.",
-    "prevention": "Maintain field hygiene, avoid water stress, and ensure proper plant spacing."
-  },
-  "Tomato___YellowLeaf_Curl_Virus": {
-    "remedy": "Control whitefly vectors using yellow traps and selective insecticide programs.",
-    "dosage": "Imidacloprid 0.3 ml per liter at early stage, follow local resistance management guidance.",
-    "prevention": "Use virus-free seedlings, rogue infected plants early, and install insect-proof nursery nets."
-  },
-  "Tomato___Bacterial_spot": {
-    "remedy": "Apply copper bactericide with mancozeb tank mix and avoid handling wet plants.",
-    "dosage": "Copper oxychloride 2 g plus mancozeb 2 g per liter, repeat every 7 days in humid weather.",
-    "prevention": "Use certified seed, sanitize tools, and rotate with non-host crops for at least 1 year."
-  },
-  "Tomato___healthy": {
-    "remedy": "No treatment required. Continue integrated nutrient and pest management.",
+  "Root___Healthy": {
+    "remedy": "No disease or pest detected. Continue current organic farming and irrigation practices.",
     "dosage": "Not applicable.",
-    "prevention": "Scout weekly, maintain balanced fertilization, and irrigate uniformly to avoid stress."
+    "prevention": "Maintain soil health by adding compost and monitoring moisture weekly."
   },
-  "Potato___Late_blight": {
-    "remedy": "Spray systemic plus contact fungicide and destroy infected haulms if severe.",
-    "dosage": "Cymoxanil plus mancozeb 2 g per liter, repeat every 7 days during cool humid periods.",
-    "prevention": "Use resistant varieties, avoid evening irrigation, and hill soil to protect tubers."
+  "Root___Rot": {
+    "remedy": "Apply a bio-fungicide containing Trichoderma harzianum or copper-based fungicide to suppress root-rotting pathogens.",
+    "dosage": "Trichoderma formulation: 5 g per liter of water as a root drench. Copper fungicide: 2 g per liter.",
+    "prevention": "Ensure proper field drainage, avoid overhead or excessive irrigation, and rotate crops with non-susceptible varieties."
   },
-  "Potato___Early_blight": {
-    "remedy": "Apply chlorothalonil or azoxystrobin and remove infected lower foliage.",
-    "dosage": "Chlorothalonil 2 g per liter, spray at symptom onset and repeat after 10 days.",
-    "prevention": "Ensure adequate potassium, rotate fields, and prevent prolonged leaf wetness."
+  "Root___Knot_Nematodes": {
+    "remedy": "Drench soil with neem cake extract or apply biological nematicides containing Paecilomyces lilacinus to control root-knot nematode populations.",
+    "dosage": "Neem cake: 100 g per square meter mixed into the soil. Biopesticide: 5 ml per liter, drench root zones.",
+    "prevention": "Grow marigolds as a trap crop, practice solarization during summer, and rotate with cereal crops."
   },
-  "Potato___healthy": {
-    "remedy": "No treatment required. Continue preventive scouting and nutrition.",
+  "Root___Woolly_Aphids": {
+    "remedy": "Apply systemic insecticides or drench with entomopathogenic fungi like Beauveria bassiana to target root-feeding aphid colonies.",
+    "dosage": "Beauveria bassiana: 3 ml per liter of water, applied thoroughly to the exposed root zone.",
+    "prevention": "Scout root crowns of adjacent crops, use aphid-resistant rootstocks, and control ant populations which farm aphids."
+  },
+  "Root___Nitrogen_Deficiency": {
+    "remedy": "Apply a quick-release nitrogen fertilizer such as urea, or organic options like blood meal or liquid fish emulsion.",
+    "dosage": "Urea: 10 g per plant, dissolved in water and applied at the base. Organic emulsion: 15 ml per liter.",
+    "prevention": "Plant nitrogen-fixing cover crops (legumes like clover or alfalfa) and maintain high organic matter levels."
+  },
+  "Root___Phosphorus_Deficiency": {
+    "remedy": "Incorporate rock phosphate, bone meal, or superphosphate (SSP) close to the root zone to promote strong root development.",
+    "dosage": "Bone meal: 50 g per plant mixed into the root-zone soil. Superphosphate: 5 g per plant.",
+    "prevention": "Maintain soil pH in the optimal range (6.0 - 7.0) to prevent phosphorus lock-up, and inoculate soil with mycorrhizal fungi."
+  },
+  "Root___Potassium_Deficiency": {
+    "remedy": "Apply potassium-rich fertilizers such as muriate of potash (MOP), sulfate of potash (SOP), or organic wood ash.",
+    "dosage": "Muriate of Potash: 8 g per plant drench. Wood ash: 100 g mixed into soil surface.",
+    "prevention": "Conduct regular soil tests, avoid over-leaching sandy soils, and recycle crop residues back into the field."
+  },
+  "Soil___Healthy_Humus": {
+    "remedy": "Excellent microbial activity and soil structure. No corrective action required.",
     "dosage": "Not applicable.",
-    "prevention": "Use clean seed tubers, maintain drainage, and monitor canopy health regularly."
+    "prevention": "Continue cover cropping, low-till practices, and regular additions of well-rotted animal manure or compost."
   },
-  "Pepper__bell___Bacterial_spot": {
-    "remedy": "Use copper-based bactericide and remove heavily infected leaves and fruits.",
-    "dosage": "Copper hydroxide 2 g per liter at 7 to 10 day interval.",
-    "prevention": "Use pathogen-free seed, avoid overhead irrigation, and disinfect tools and trays."
+  "Soil___Compacted": {
+    "remedy": "Perform mechanical aeration (deep ripping) to break compacted layers and apply gypsum to clay soils to improve aeration.",
+    "dosage": "Gypsum: 500 g per square meter, worked into the top 10 cm of soil.",
+    "prevention": "Reduce heavy machinery traffic, avoid farming when soil is wet, and grow deep taproot crops like tillage radishes."
   },
-  "Pepper__bell___healthy": {
-    "remedy": "No treatment needed. Maintain routine crop monitoring.",
-    "dosage": "Not applicable.",
-    "prevention": "Rotate crops and maintain field sanitation to reduce inoculum build-up."
+  "Soil___Salinity_Crust": {
+    "remedy": "Flush the soil root zone with high-quality, low-salt water to leach soluble salts below the root level. Apply agricultural sulfur.",
+    "dosage": "Sulfur: 50 g per square meter to lower pH and displace sodium if calcium is present.",
+    "prevention": "Improve subsurface drainage, avoid saline irrigation water, and use organic mulches to reduce evaporation-driven salt accumulation."
   },
-  "Corn___Cercospora_leaf_spot Gray_leaf_spot": {
-    "remedy": "Apply triazole or strobilurin fungicide when lesions progress to upper canopy.",
-    "dosage": "Propiconazole 1 ml per liter or equivalent product as label recommendation.",
-    "prevention": "Use tolerant hybrids, manage residue, and rotate with non-host crops."
-  },
-  "Corn___Common_rust": {
-    "remedy": "Spray fungicide if rust appears before tasseling and disease is spreading.",
-    "dosage": "Tebuconazole 1 ml per liter, one to two sprays based on scouting.",
-    "prevention": "Plant resistant hybrids and avoid excessive late nitrogen application."
-  },
-  "Corn___Northern_Leaf_Blight": {
-    "remedy": "Apply fungicide at early lesion stage and monitor field progression.",
-    "dosage": "Azoxystrobin 1 ml per liter, repeat in 10 to 14 days if needed.",
-    "prevention": "Use resistant cultivars, rotate crops, and bury infected residue where feasible."
-  },
-  "Corn___healthy": {
-    "remedy": "No treatment needed. Continue best agronomy practices.",
-    "dosage": "Not applicable.",
-    "prevention": "Scout at regular intervals and maintain balanced fertilization and irrigation."
+  "Soil___Erosion_Sandy": {
+    "remedy": "Add massive amounts of compost, green manure, and mulches to build soil cohesion, water-holding capacity, and nutrient retention.",
+    "dosage": "Compost: 5 to 10 kg per square meter, mixed into the topsoil.",
+    "prevention": "Keep soil covered with living vegetation or mulches at all times, implement windbreaks, and practice zero-tillage."
   }
 }
